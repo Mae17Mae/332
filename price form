@@ -1,0 +1,79 @@
+<form id="form1" runat="server">
+    <div>
+        <asp:Table ID="Table1" runat="server">
+           <asp:TableRow>
+               <asp:TableCell>
+                   <asp:Label runat="server" Text="Price Data Entry Form"></asp:Label>
+               </asp:TableCell>
+           </asp:TableRow>
+           <asp:TableRow>
+               <asp:TableCell>
+                   <asp:Label ID="Label1" runat="server" Text="Date"></asp:Label>  
+               </asp:TableCell>
+               <asp:TableCell>
+                   <asp:TextBox ID="TextBox1" runat="server" Text="MM/DD/YY"></asp:TextBox>
+               </asp:TableCell>
+           </asp:TableRow>
+           <asp:TableRow>
+               <asp:TableCell>
+                   <asp:Label ID="Label2" runat="server" Text="Item"></asp:Label>
+               </asp:TableCell>
+               <asp:TableCell>
+                   <asp:TextBox ID="TextBox2" runat="server" Text="Supplement Name" ></asp:TextBox>
+               </asp:TableCell>
+           </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label3" runat="server" Text="Unit of Measurement"></asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:DropDownList ID="DropDownList1" runat="server">
+                        <asp:ListItem>MG (milligrams)</asp:ListItem>
+                        <asp:ListItem>Probiotic in Billions</asp:ListItem>
+                    </asp:DropDownList>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label4" runat="server" Text="Amount"></asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:TextBox ID="TextBox3" runat="server" Text="Amount"></asp:TextBox>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label5" runat="server" Text="Brand"></asp:Label>
+                </asp:TableCell>
+             <asp:TableCell>
+                 <asp:TextBox ID="TextBox4" runat="server" Text="Brand Name"></asp:TextBox>
+             </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label6" runat="server" Text="Original Price"></asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:TextBox ID="TextBox5" runat="server" Text="Original Price of the Item"></asp:TextBox>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label7" runat="server" Text="Discounted Price"></asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:TextBox ID="TextBox6" runat="server" Text="Discounted Price of the Item"></asp:TextBox>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+                    <asp:Label ID="Label8" runat="server" Text="Extended Price"></asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:TextBox ID="TextBox7" runat="server" Text="Original Price - Discounted Price"></asp:TextBox>
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>
+
+    </div>
+</form>
